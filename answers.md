@@ -17,6 +17,8 @@ I passed ':controller => 'trainers', :action => 'show', :id => @pokemon.trainer_
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 The layout in the file views/layouts/application.html.erb is the default of rendering any page, so the error message that is rendered at the very end of application.html.erb is included in every page. In pokemons_controller, we're using the flash message that was rendered in application.html.erb and defined in _messages.html.erb.
 
+https://github.com/tseclaudia/proj1
+
 # Give us feedback on the project and decal below!
 The project was interesting but I kept running into bugs! So sad. :(
 
